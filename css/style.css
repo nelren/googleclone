@@ -56,3 +56,23 @@ nav .nav-right-section img{
     border-radius: 50px;
     margin-left: 10px;
 }
+
+/* --------------------------
+Main Section 
+----------------------------*/
+
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 530px;
+    /*Make sure that the input container to be in the center*/
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{
+    width: 300px;
+}
