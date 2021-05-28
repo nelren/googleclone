@@ -11,6 +11,13 @@ Global settings
 a{
     text-decoration: none; /*Delete underline from links*/
     cursor: pointer;
+    background-color: blue;
+    width: 30px;
+}
+
+span{
+    background-color: red;
+    width: 30px;
 }
 /* -----------------------
 Header 
@@ -75,4 +82,29 @@ main .main-logo{
 
 main .main-logo img{
     width: 300px;
+}
+
+main .main-input{
+    width: 530;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input .main-input-container{
+    width: 525px;
+    margin: 0 auto;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    /*Align elements horizontal one after another*/
+    display: flex;
+    justify-content: center;
+    align-items: center   ;
+}
+
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    /*the line outside the input*/
+    outline: none;
 }
