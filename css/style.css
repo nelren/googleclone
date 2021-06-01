@@ -163,3 +163,43 @@ main .main-buttons button:hover{
     color: #222;
     cursor: pointer;
 }
+
+/********************************* 
+footer section 
+***********************************/
+
+footer{
+    width: 100%;
+    height: 50px;
+    /*the "position" and "bottom" properties ensure the footer is at the bottom of the page */
+    position: absolute;
+    bottom: 0;
+    /*display and grid create two squares and locate each ul container on each square*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    /*flex display to locate the elements on horizontal way*/
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
